@@ -1,17 +1,6 @@
 .timeline > li .timeline-image:hover {
-    border: 7px solid black;
+    border: 7px solid #b4b4b4;
     /* border: 7px solid #b4b4b4; */
     /* border: 7px solid #fec810; */
     cursor: pointer;
   }
-
-.timeline-modal .modal-dialog { margin: 100px auto; max-width: 50vw; }
-.timeline-modal .modal-content { padding-top: 4rem; padding-bottom: 2rem; text-align: center; }
-.timeline-modal .modal-content h2 { font-size: 3rem; line-height: 3rem; }
-.timeline-modal .modal-content p.item-intro { font-style: italic; margin-bottom: 1rem; font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-.timeline-modal .modal-content p { margin-bottom: 2rem; }
-.timeline-modal .modal-content ul.list-inline { margin-bottom: 2rem; text-align: center; }
-.timeline-modal .modal-content ul { padding-top: 0px; margin-bottom: 1rem; text-align: left; }
-.timeline-modal .modal-content img { margin-bottom: 2rem; }
-.timeline-modal .close-modal { position: absolute; top: 1.5rem; right: 1.5rem; width: 1.5rem; height: 1.5rem; cursor: pointer; background-color: transparent; }
-.timeline-modal .close-modal:hover { opacity: 0.3; }
