@@ -119,7 +119,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">A timeline overview of my computer science experiences and internships. Click on any image for more details!</h3>
+                    <h3 class="section-subheading text-muted">A timeline overview of my computer science experiences and internships. Click on any image for further details!</h3>
                     <p></p>
                     <p></p>
                     <br />
@@ -249,7 +249,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Projects</h2>
-                    <h3 class="section-subheading text-muted">An overview of my coding projects.</h3>
+                    <h3 class="section-subheading text-muted">An overview of my coding projects. Click on any image for further details!</h3>
                     <p></p>
                     <br />
                 </div>
@@ -439,6 +439,19 @@
                                     <p class="item-intro text-muted">Operating System</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/pintos.png" alt="..." />
                                     <p>Implemented critical components of the PintOS operating system, including threading, support for user program execution and thread scheduling, and a file system.</p>
+                                    <ul>
+                                        <li>Project 1: <a href="https://inst.eecs.berkeley.edu/~cs162/fa21/static/proj/proj2-threads.pdf" target="_blank">User Programs</a> | I extended Pintos's support for user programs to 
+                                        be able to load user programs into memory, read command-line arguments or make
+                                        system calls.</li>
+                                        <li>Project 2: <a href="https://inst.eecs.berkeley.edu/~cs162/fa21/static/proj/proj2-threads.pdf" target="_blank">Multithreading</a> | I implemented multithreading synchronization, schedulers, and a timer for context switches.</li>
+                                        <li>Project 3: <a href="https://inst.eecs.berkeley.edu/~cs162/fa21/static/proj/proj3-filesys.pdf" target="_blank">File Systems</a> | I added a buffer cache for improved reading and writing performance, implemented the Unix FFS system to allow extensible files, and added full support for subdirectories.</li>
+                                        <li>Grade homeworks/exams, and answer student questions online via Piazza.</li>
+                                        <li>Some key principles I taught include the following: languages for transforming, querying and analyzing data; algorithms for
+                                            machine learning methods including regression,
+                                            classification and clustering; principles behind creating informative data visualizations; statistical concepts
+                                            of
+                                            measurement error and prediction; and techniques for scalable data processing.</li>
+                                    </ul>
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Tech:</strong>
@@ -472,9 +485,12 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">End to End File Sharing System</h2>
                                     <p class="item-intro text-muted">Secure Encrypted File Sharing</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/dropbox.png" alt="..." />
-                                    <p>Designed and implemented a secure file sharing system based on public storage. Supports hierarchical sharing/revocation and efficient file append.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/cs161-proj2.PNG" alt="..." />
+                                    <p>Designed and implemented a secure file sharing system based on public storage, similar to dropbox, without breaching IND-CPA using cryptographic functions (one must fully support confidentiality and integrity). The public storage is an untrusted service hosted on a server and network controlled by an adversary who can view and record the
+                                    content and metadata of all requests.</p>
+                                    <p><a href="https://sp21.cs161.org/proj2/design_requirements.html" target="_blank">Full Project Specifications</a>. Supports hierarchical sharing/revocation and efficient file append.</p>
                                     <ul class="list-inline">
+                                        <li>Cryptographic functions used: Public Key Encryption (PKE) · Digital Signatures · Hash Function · HMAC · Hash-based and Password-based Key Derivation Function · Symmetric Encryption · Random Byte Generator</li>
                                         <li>
                                             <strong>Tech:</strong>
                                             Golang
@@ -699,7 +715,7 @@
                                         measurement error and prediction; and techniques for scalable data processing.</li>
                                     </ul>
                                     <ul class="list-inline">
-                                        <li><b>Topics:</b>Question formulation, data collection and cleaning, visualization, statistical inference, predictive modeling, and decision making</li>
+                                        <li><b>Topics:</b> Question formulation, data collection and cleaning, visualization, statistical inference, predictive modeling, and decision making</li>
                                         <li><b>Course Link:</b> <a href="https://ds100.org/fa21/" target="_blank">Data 100</a></li>
                                         <li><b>Date:</b> August 2021 - Present</li>
                                     </ul>
